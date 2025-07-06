@@ -1,0 +1,37 @@
+body {
+  background: #fce4ec;
+  font-family: sans-serif;
+}
+#main-view {
+  width: 320px;
+  margin: 20px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+}
+#character {
+  position: relative;
+  width: 200px;
+  margin: 0 auto 10px;
+}
+#base-face {
+  width: 100%;
+  display: block;
+}
+#eye-svg {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+}
+#color-pickers label {
+  display: block;
+  margin: 6px 0;
+  font-size: 14px;
+}
+input[type="color"] {
+  margin-left: 8px;
+  vertical-align: middle;
+}

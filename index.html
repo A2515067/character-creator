@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>キャラクリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-view">
+    <div id="character">
+      <img src="assets/base_face.png" id="base-face" alt="顔ベース">
+      <object id="eye-svg" type="image/svg+xml" data="assets/pink_eye.svg"></object>
+    </div>
+    <div id="color-pickers">
+      <label>白目<input type="color" id="sclera-color" value="#FFFFFF"></label>
+      <label>虹彩<input type="color" id="iris-color" value="#D13A7A"></label>
+      <label>瞳孔<input type="color" id="pupil-color" value="#4A0C2A"></label>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
